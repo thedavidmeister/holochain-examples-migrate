@@ -8,7 +8,19 @@
     {
       "Name": "migrateZome",
       "codeFile": "migrateZome.js",
-      "RibosomeType": "js"
+      "RibosomeType": "js",
+      "Functions": [
+        {
+          "Name": "doMigration",
+          "CallingType": "json",
+          "Exposure": "public"
+        },
+        {
+          "Name": "getMigrateEntry",
+          "CallingType": "json",
+          "Exposure": "public"
+        }
+      ]
     }
   ]
 }
